@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Calculater</title>
+</head>
+
+<body>
+    <h1>Simple Calculater</h1>
+    <div id="form">
+        <table>
+            <tr>
+                <input type="text" name="result" id="result">
+            </tr>
+            <tr>
+                <td colspan="2"><button class="exp" onclick="cancel()">C</button></td>
+                <td colspan="2"><button class="exp" onclick="delet()">⬅</button></td>
+
+            </tr>
+            <tr>
+                <td><button onclick="seven()">7</button></td>
+                <td><button onclick="eight()">8</button></td>
+                <td><button onclick="nine()">9</button></td>
+                <td><button onclick="divide()">÷</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="four()">4</button></td>
+                <td><button onclick="five()">5</button></td>
+                <td><button onclick="six()">6</button></td>
+                <td><button onclick="Multiply()">✕</button></td>
+            </tr>
+            <tr>
+
+                <td><button onclick="one()">1</button></td>
+                <td><button onclick="two()">2</button></td>
+                <td><button onclick="three()">3</button></td>
+                <td><button onclick="minus()">–</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="dot()">.</button></td>
+                <td><button onclick="zero()">0</button></td>
+                <td><button onclick="equal()">=</button></td>
+                <td><button onclick="plus()">+</button></td>
+            </tr>
+        </table>
+
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>

@@ -1,0 +1,53 @@
+body{
+    background: indigo;
+}
+h1{
+    font-size: 50px;
+    /* text-align: center; */
+    margin-left: 40%;
+    font-weight: bolder;
+    animation:Simple 1.5s infinite;
+}
+@keyframes Simple{
+    0%{color: white;}
+    20%{color: red;}
+    40%{color:blue;}
+    60%{color: green;}
+    80%{color: #000;}
+    100%{color: pink;}
+}
+#form{
+    background: indianred;
+    height: 400px;
+    width: 350px;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-left: 40%; 
+}
+input{
+    margin: 5%;
+    border-radius: 20px;
+    width: 300px;
+    height: 40px;
+    text-align: end;
+    font-size: 16px;
+    cursor: auto;
+    border-width: 1px;
+}
+table{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+button{
+    width: 70px;
+    height: 50px;
+    background: black;
+    color: white;
+    border: black;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.exp{
+    width: 145px;
+}
